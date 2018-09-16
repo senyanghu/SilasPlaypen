@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ebb5be5-881c-4aaf-93f3-49cb6afb8caa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Udemy/03_Variables/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Udemy/04_Scopes/01_PackageScope/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Udemy/04_Scopes/02_ClosureScope/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Udemy/06_Constants/01_Constant/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Udemy/06_Constants/02_Multi_Initialization/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Udemy/07_MemoryAddresses/01_ShowAddresses/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Udemy/07_MemoryAddresses/02_UseAddresses/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,22 +24,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="go" value="7" />
+          <entry key="go" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Go" value="7" />
+          <entry key="Go" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="go" value="467" />
+          <entry key="go" value="1037" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Go" value="467" />
+          <entry key="Go" value="1037" />
         </counts>
       </usages-collector>
     </session>
@@ -46,10 +47,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Udemy/04_Scopes/02_ClosureScope/main.go">
+        <entry file="file://$PROJECT_DIR$/Udemy/07_MemoryAddresses/02_UseAddresses/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            <state relative-caret-position="114">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -75,6 +76,11 @@
         <option value="$PROJECT_DIR$/Udemy/04_Scopes/main.go" />
         <option value="$PROJECT_DIR$/Udemy/04_Scopes/01_PackageScope/main.go" />
         <option value="$PROJECT_DIR$/Udemy/04_Scopes/02_ClosureScope/main.go" />
+        <option value="$PROJECT_DIR$/Udemy/06_Constants/01_PackageScope/main.go" />
+        <option value="$PROJECT_DIR$/Udemy/06_Constants/01_Constant/main.go" />
+        <option value="$PROJECT_DIR$/Udemy/06_Constants/02_Multi_Initialization/main.go" />
+        <option value="$PROJECT_DIR$/Udemy/07_MemoryAddresses/01_ShowAddresses/main.go" />
+        <option value="$PROJECT_DIR$/Udemy/07_MemoryAddresses/02_UseAddresses/main.go" />
       </list>
     </option>
   </component>
@@ -84,10 +90,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="42" />
     <option name="y" value="23" />
-    <option name="width" value="1398" />
+    <option name="width" value="1007" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -114,20 +120,14 @@
               <item name="GoPlaypen" type="b2602c69:ProjectViewProjectNode" />
               <item name="GoPlaypen" type="462c0819:PsiDirectoryNode" />
               <item name="Udemy" type="462c0819:PsiDirectoryNode" />
-              <item name="03_Variables" type="462c0819:PsiDirectoryNode" />
+              <item name="07_MemoryAddresses" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GoPlaypen" type="b2602c69:ProjectViewProjectNode" />
               <item name="GoPlaypen" type="462c0819:PsiDirectoryNode" />
               <item name="Udemy" type="462c0819:PsiDirectoryNode" />
-              <item name="04_Scopes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GoPlaypen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GoPlaypen" type="462c0819:PsiDirectoryNode" />
-              <item name="Udemy" type="462c0819:PsiDirectoryNode" />
-              <item name="04_Scopes" type="462c0819:PsiDirectoryNode" />
-              <item name="02_ClosureScope" type="462c0819:PsiDirectoryNode" />
+              <item name="07_MemoryAddresses" type="462c0819:PsiDirectoryNode" />
+              <item name="02_UseAddresses" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GoPlaypen" type="b2602c69:ProjectViewProjectNode" />
@@ -153,8 +153,8 @@
       <recent name="$PROJECT_DIR$/Udemy/04_Scopes/01_PackageScope" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Udemy/04_Scopes" />
       <recent name="$PROJECT_DIR$/Udemy" />
+      <recent name="$PROJECT_DIR$/Udemy/04_Scopes" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -169,22 +169,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go (3)">
+  <component name="RunManager" selected="Go Build.go build main.go">
     <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoPlaypen" />
       <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/Udemy/04_Scopes/main.go" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build main.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="GoPlaypen" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <go_parameters value="-i" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/Udemy/04_Scopes/01_PackageScope/main.go" />
+      <filePath value="$PROJECT_DIR$/Udemy/07_MemoryAddresses/02_UseAddresses/main.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -197,44 +188,64 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+    <configuration name="go build main.go (4)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoPlaypen" />
       <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/Udemy/03_Variables/main.go" />
+      <filePath value="$PROJECT_DIR$/Udemy/06_Constants/01_Constant/main.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go (5)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoPlaypen" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/Udemy/06_Constants/02_Multi_Initialization/main.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoPlaypen" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/Udemy/07_MemoryAddresses/01_ShowAddresses/main.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Go Build.go build main.go (3)" />
+      <item itemvalue="Go Build.go build main.go (4)" />
+      <item itemvalue="Go Build.go build main.go (5)" />
       <item itemvalue="Go Build.go build main.go" />
       <item itemvalue="Go Build.go build main.go (1)" />
-      <item itemvalue="Go Build.go build main.go (2)" />
-      <item itemvalue="Go Build.go build main.go (3)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build main.go (3)" />
-        <item itemvalue="Go Build.go build main.go (2)" />
-        <item itemvalue="Go Build.go build main.go (1)" />
         <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Build.go build main.go (1)" />
+        <item itemvalue="Go Build.go build main.go (5)" />
+        <item itemvalue="Go Build.go build main.go (4)" />
+        <item itemvalue="Go Build.go build main.go (3)" />
       </list>
     </recent_temporary>
   </component>
   <component name="ToolWindowManager">
-    <frame x="42" y="23" width="1398" height="877" extended-state="0" />
+    <frame x="42" y="23" width="1398" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17035398" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17035398" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" weight="0.3299363" />
-      <window_info anchor="bottom" id="Terminal" weight="0.3299363" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.3299363" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" weight="0.3299363" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3299363" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3299363" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -282,8 +293,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Udemy/04_Scopes/02_ClosureScope/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state relative-caret-position="323">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Udemy/06_Constants/01_Constant/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Udemy/06_Constants/02_Multi_Initialization/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/fmt/scan.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="70" column="1" lean-forward="true" selection-start-line="70" selection-start-column="1" selection-end-line="70" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Udemy/07_MemoryAddresses/01_ShowAddresses/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Udemy/07_MemoryAddresses/02_UseAddresses/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
