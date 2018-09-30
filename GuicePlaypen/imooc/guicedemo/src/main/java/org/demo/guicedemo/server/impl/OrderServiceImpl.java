@@ -23,12 +23,13 @@ public class OrderServiceImpl implements OrderService {
 		this.sessionManager = sessionManager;
 	}
 
+	@Override
 	public void sendToPayment(long orderId) {
 		long price = priceService.getPrice(orderId);
 		paymentService.pay(orderId, price, sessionManager.getSessionId());
 		ordersPaid = ordersPaid + 1;
 
-		throw new RuntimeException("order id is:" + orderId);
+		throw new RuntimeException("price is: " + price + "; order id is:" + orderId);
 	}
 
 }
